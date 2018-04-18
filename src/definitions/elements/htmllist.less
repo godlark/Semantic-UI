@@ -1,0 +1,41 @@
+/*!
+ * # Semantic UI - HtmlList
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+/*******************************
+            Theme
+*******************************/
+
+@type    : 'element';
+@element : 'htmllist';
+
+@import (multiple) '../../theme.config';
+
+
+/*-------------------
+       Divided
+--------------------*/
+
+ul.ui.divided.list > li,
+.ui.divided.list > .item {
+  border-top: @dividedBorder;
+}
+.ui.divided.list .list > .item {
+  border-top: @dividedChildListBorder;
+}
+.ui.divided.list .item .list > .item {
+  border-top: @dividedChildItemBorder;
+}
+ul.ui.divided.list > li:first-child,
+.ui.divided.list .list > .item:first-child,
+.ui.divided.list > .item:first-child {
+  border-top: none;
+}
+
+.loadUIOverrides();
