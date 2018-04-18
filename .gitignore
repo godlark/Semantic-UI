@@ -35,5 +35,3 @@ nbproject
 *.sublime-workspace
 .build*
 .idea
-
-package-lock.json
