@@ -53,6 +53,7 @@ module.exports = {
     'divider',
     'flag',
     'header',
+    'htmllist',
     'icon',
     'image',
     'input',

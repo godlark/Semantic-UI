@@ -78,6 +78,7 @@ module.exports = {
     'form',
     'grid',
     'header',
+    'htmllist',
     'icon',
     'image',
     'input',
